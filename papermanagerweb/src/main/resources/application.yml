@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /onlineexam
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/onlineexam?characterEncoding=utf-8
+    username: root
+    password: 1011
+  mvc:
+    view:
+      prefix: /view/
+      suffix: .html
+    static-path-pattern: /**
+
+
+mybatis:
+  mapper-locations: classpath:com/onlineexam/dao/*.xml # \u5BF9\u5E94mapper\u6620\u5C04xml\u6587\u4EF6\u7684\u6240\u5728\u8DEF\u5F84
+  configLocation: classpath:mybatis-config.xml
+

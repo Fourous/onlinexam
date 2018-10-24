@@ -1,0 +1,98 @@
+package com.onlineexam.pojo;
+
+import java.util.Date;
+
+/**
+ * 选择题 DTO
+ */
+public class ChoiceQuestion {
+    private Long id;
+
+    private String questionDesc;
+
+    private Integer questionType;
+
+    private Long subjectId;
+
+    private String answers;
+
+    private String optionA;
+
+    private String optionB;
+
+    private String optionC;
+
+    private String optionD;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getQuestionDesc() {
+        return questionDesc;
+    }
+
+    public void setQuestionDesc(String questionDesc) {
+        this.questionDesc = questionDesc;
+    }
+
+    public Integer getQuestionType() {
+        return questionType;
+    }
+
+    public void setQuestionType(Integer questionType) {
+        this.questionType = questionType;
+    }
+
+    public Long getSubjectId() {
+        return subjectId;
+    }
+
+    public void setSubjectId(Long subjectId) {
+        this.subjectId = subjectId;
+    }
+
+    public String getAnswers() {
+        return answers;
+    }
+
+    public void setAnswers(String answers) {
+        this.answers = answers;
+    }
+
+    public String getOptionA() {
+        return optionA;
+    }
+
+    public void setOptionA(String optionA) {
+        this.optionA = optionA;
+    }
+
+    public String getOptionB() {
+        return optionB;
+    }
+
+    public void setOptionB(String optionB) {
+        this.optionB = optionB;
+    }
+
+    public String getOptionC() {
+        return optionC;
+    }
+
+    public void setOptionC(String optionC) {
+        this.optionC = optionC;
+    }
+
+    public String getOptionD() {
+        return optionD;
+    }
+
+    public void setOptionD(String optionD) {
+        this.optionD = optionD;
+    }
+}

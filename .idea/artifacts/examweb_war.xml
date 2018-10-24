@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="examweb:war">
+    <output-path>$PROJECT_DIR$/examweb/target</output-path>
+    <root id="archive" name="examweb-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="examweb:war exploded" />
+    </root>
+  </artifact>
+</component>

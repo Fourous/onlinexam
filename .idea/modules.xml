@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dao/dao.iml" filepath="$PROJECT_DIR$/dao/dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examservice/examservice.iml" filepath="$PROJECT_DIR$/examservice/examservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examweb/examweb.iml" filepath="$PROJECT_DIR$/examweb/examweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onlineexam.iml" filepath="$PROJECT_DIR$/onlineexam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/papermanager/papermanager (2).iml" filepath="$PROJECT_DIR$/papermanager/papermanager (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/papermanagerservice/papermanagerservice.iml" filepath="$PROJECT_DIR$/papermanagerservice/papermanagerservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/papermanagerweb/papermanagerweb.iml" filepath="$PROJECT_DIR$/papermanagerweb/papermanagerweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo/pojo.iml" filepath="$PROJECT_DIR$/pojo/pojo.iml" />
+    </modules>
+  </component>
+</project>

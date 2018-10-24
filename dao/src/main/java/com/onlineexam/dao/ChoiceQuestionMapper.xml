@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.onlineexam.dao.ChoiceQuestionMapper">
+    <select id="getChoiceList" resultType="com.onlineexam.pojo.ChoiceQuestion">
+        SELECT
+          a.id,
+          a.question_desc,
+          a.subject_id,
+          a.answers,
+          b.option_A,
+          b.option_B,
+          b.option_C,
+          b.option_D
+        FROM
+          questions a
+        LEFT JOIN options b ON a.id = b.question_id
+
+
+    </select>
+
+    <select id="getChoiceById" parameterType="long" resultType="com.onlineexam.pojo.ChoiceQuestion">
+        SELECT
+          a.id,
+          a.question_desc,
+          a.subject_id,
+          a.answers,
+          b.option_A,
+          b.option_B,
+          b.option_C,
+          b.option_D
+        FROM
+          questions a
+        LEFT JOIN options b ON a.id = b.question_id
+        WHERE
+          a.id = #{questionId}
+
+
+    </select>
+
+
+
+
+
+</mapper>

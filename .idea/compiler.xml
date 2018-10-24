@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="dao" />
+        <module name="examservice" />
+        <module name="examweb" />
+        <module name="papermanager (2)" />
+        <module name="papermanagerservice" />
+        <module name="papermanagerweb" />
+        <module name="pojo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="dao" target="1.8" />
+      <module name="examservice" target="1.8" />
+      <module name="examweb" target="1.8" />
+      <module name="onlineexam" target="1.8" />
+      <module name="paper-manager-service" target="1.8" />
+      <module name="papermanager" target="1.8" />
+      <module name="papermanager (2)" target="1.8" />
+      <module name="papermanagerservice" target="1.8" />
+      <module name="papermanagerweb" target="1.8" />
+      <module name="pojo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
